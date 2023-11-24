@@ -9,7 +9,7 @@ Authors@R: c(person("Georg", "Heinze", role=c("aut", "cre"), email="georg.heinze
 			 person("Lena", "Jiricka", role=c("aut")),
 			 person("Gregor", "Steiner", role=c("aut")))
 Depends: R (>= 3.0.0)
-Imports: mice, mgcv, formula.tools, Matrix
+Imports: generics, mice, mgcv, formula.tools, Matrix
 Suggests: emmeans (>= 1.4), estimability
 Description: Fit a logistic regression model using Firth's bias reduction method, equivalent to penalization of the log-likelihood by the Jeffreys 
 	prior. Confidence intervals for regression coefficients can be computed by penalized profile likelihood. Firth's method was proposed as ideal
